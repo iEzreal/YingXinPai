@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_na"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBack">
+
+
+    <ImageView
+        android:id="@+id/iv_music_menu_indicator"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/ic_trigon_red"/>
+
+    <LinearLayout
+        android:id="@+id/ll_music_menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_toRightOf="@+id/iv_music_menu_indicator"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorRed_E74E3E">
+
+        <ImageView
+            android:id="@+id/iv_music_menu_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/tv_music_menu_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:text="车机音乐"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
